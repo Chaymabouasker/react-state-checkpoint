@@ -1,0 +1,55 @@
+.profile-card {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 30%;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 2px -4px 10px 1px rgba(0, 0, 0, 0.2);
+  background-color: #f9f9f9;
+}
+.container {
+  width: 90%;
+  margin: 20px;
+}
+.label {
+  font-size: 16px;
+  font-weight: bold;
+  color: chocolate;
+}
+ul {
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.pic {
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.btn {
+  outline: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  background: chocolate;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: ease-in-out 0.3s;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 4px 3px 10px 1px rgba(0, 0, 0, 0.2);
+  color: chocolate;
+  background: white;
+}
