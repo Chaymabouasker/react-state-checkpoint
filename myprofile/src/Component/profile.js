@@ -30,13 +30,13 @@ export default class Profile extends React.Component {
          <ul>
            <div><li className="pic" >{this.state.Person.ImgSrc}</li></div>
            <div className="container">
-             <li><span className='label'>Name: </span>{this.state.Person.FullName}</li>
+             <li><span className='label'>Name : </span>{this.state.Person.FullName}</li>
              <br/>
-             <li><span className='label'>Bio: </span>{this.state.Person.Bio}</li> 
+             <li><span className='label'>Bio : </span>{this.state.Person.Bio}</li> 
              <br/>
-             <li><span className='label'>Profession: </span>{this.state.Person.Profession}</li>
+             <li><span className='label'>Profession : </span>{this.state.Person.Profession}</li>
            </div>
-           <button className="btn">{this.state.Timer}</button>
+           <p>This component was mounted <span className='label'>{this.state.Timer}</span> seconds ago</p>
            
         </ul>
          
